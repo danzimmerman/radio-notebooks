@@ -1,0 +1,67 @@
+                      EZNEC+ ver. 5.0
+
+N3OX 20m 11-Circle                           8/19/2020     12:25:05 AM
+
+         --------------- ANTENNA DESCRIPTION ---------------
+
+Frequency = 14.15 MHz
+Wire Loss: Aluminum (6061-T6) -- Resistivity = 4E-08 ohm-m, Rel. Perm. = 1
+
+              --------------- WIRES ---------------
+
+No.          End 1   Coord. (m)              End 2   Coord. (m)       Dia (mm)  Segs        Insulation
+      Conn.      X       Y       Z     Conn.      X       Y       Z                         Diel C  Thk(mm)
+1                  9,      0,      2                9,      0, 12.594        25   17          1        0
+2            7.57128,4.86577,      2          7.57128,4.86577, 12.594        25   17          1        0
+3            3.73874,8.18669,      2          3.73874,8.18669, 12.594        25   17          1        0
+4            -1.2808,8.90839,      2          -1.2808,8.90839, 12.594        25   17          1        0
+5            -5.8937,6.80175,      2          -5.8937,6.80175, 12.594        25   17          1        0
+6            -8.6354, 2.5356,      2          -8.6354, 2.5356, 12.594        25   17          1        0
+7            -8.6354,-2.5356,      2          -8.6354,-2.5356, 12.594        25   17          1        0
+8            -5.8938,-6.8017,      2          -5.8938,-6.8017, 12.594        25   17          1        0
+9            -1.2808,-8.9084,      2          -1.2808,-8.9084, 12.594        25   17          1        0
+10           3.73873,-8.1867,      2          3.73873,-8.1867, 12.594        25   17          1        0
+11           7.57128,-4.8658,      2          7.57128,-4.8658, 12.594        25   17          1        0
+
+Total Segments: 187
+
+              -------------- SOURCES --------------
+
+No.      Specified Pos.     Actual Pos.    Rel Amplitude  Phase    Type
+       Wire #  % From E1  % From E1  Seg       (V/A)     (deg.)
+1       V1        0.00       0.00               1           0         I
+
+          -------------- LOADS (RLC Type) --------------
+
+No.      Specified Pos.     Actual Pos.         R          L          C       R Freq      Type
+       Wire #  % From E1  % From E1  Seg      (ohms)      (uH)       (pF)      (MHz)
+1       V1        0.00       0.00               0.23       0.65       Short      14.15    Ser
+
+                -------- TRANSMISSION LINES ---------
+
+No.   End 1 Specified Pos End 1 Act  End 2 Specified Pos End 2 Act  Length      Z0       VF      Loss     Loss Freq  Rev/Norm
+       Wire #  % From E1  % From E1   Wire #  % From E1  % From E1  (m)       (ohms)          (dB/100 m)   (MHz)
+1       4        50.00      50.00      Open ckt                       10.3        75      0.82    1.909       14.125    N
+2       9        50.00      50.00      Open ckt                       10.3        75      0.82    1.909       14.125    N
+3       5        50.00      50.00      Open ckt                       10.8        75      0.82    1.909       14.125    N
+4       8        50.00      50.00      Open ckt                       10.8        75      0.82    1.909       14.125    N
+5       6        50.00      50.00      Open ckt                       9           75      0.82    1.909       14.125    N
+6       7        50.00      50.00      Open ckt                       9           75      0.82    1.909       14.125    N
+7       2        50.00      50.00      Short ckt                      9.7         75      0.82    1.909       14.125    N
+8       11       50.00      50.00      Short ckt                      9.7         75      0.82    1.909       14.125    N
+9       1        50.00      50.00      Short ckt                      10.8        75      0.82    1.909       14.125    N
+10      3        50.00      50.00      V1        0.00       0.00      13.03       75      0.82    1.909       14.125    N
+11      10       50.00      50.00      V1        0.00       0.00      13.03       75      0.82    1.909       14.125    N
+
+No transformers specified
+
+No L Networks specified
+
+Ground type is Real, High-Accuracy
+
+              --------------- MEDIA ---------------
+
+No.    Cond.    Diel. Const.  Height    R Coord.
+       (S/m)                  (m)      (m)
+1      0.005     13           0         0       
+
